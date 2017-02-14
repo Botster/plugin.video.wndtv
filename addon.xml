@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.wnd"
+    name="WND TV"
+    version="0.0.1"
+    provider-name="Botster">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Watch WorldNetDaily TV</summary>
+        <description lang="en_GB">WorldNetDaily: Digital Pioneer in Online Independent News Since 1997
+        - WND TV provides top-quality content from experts in prophecy news, politics, education, entertainment, education, and news.
+        - Find more uncompromising journalism, bestselling books, magazines, and blockbuster movies at http://www.wnd.com</description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://www.wnd.com</website>
+        <source>https://github.com/Botster/plugin.video.wndtv</source>
+    </extension>
+</addon>
